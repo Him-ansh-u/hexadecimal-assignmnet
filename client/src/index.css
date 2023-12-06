@@ -1,0 +1,73 @@
+:root,
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  overflow: auto;
+}
+table {
+  padding: 0;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #d4d4d4;
+}
+
+th {
+  background-color: rgb(90, 90, 245);
+  color: #fff;
+}
+td,
+th {
+  border: 2px solid #fff;
+  text-align: center;
+  min-width: 100px;
+  padding: 2px;
+  border-radius: 8px;
+}
+td {
+  font-size: small;
+}
+
+.homeText {
+  text-align: center;
+  width: 100vw;
+  padding: 40px;
+}
+.generateButton {
+  margin-top: 6px;
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(90, 90, 245);
+  border: none;
+  border-radius: 10px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.searchBar input {
+  width: 300px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+}
+.searchBar input:focus {
+  outline: none;
+}
+
+.search {
+  background-color: #d4d4d4;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+}
